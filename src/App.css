@@ -11,22 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
+} 
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +20,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  margin: 0px;
+  min-height: 94.2vh;
+  min-width: 100%;
+  opacity: 1;
+  background: linear-gradient(135deg, rgba(18,237,247,1) 0%, rgba(245,11,185,1) 100%) , url("./magicpattern.png");
+
+  background-blend-mode:soft-light;
 }
